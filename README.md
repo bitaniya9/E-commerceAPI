@@ -1,1 +1,1 @@
-# MovieAPI
+# E-commerce API
