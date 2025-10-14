@@ -4,7 +4,7 @@ class UserService{
     async addUser(userData){
         return await UserRepo.createUser(userData)
     }
-    async getUser(){
+    async getUsers(){
         return await UserRepo.getUsers()
     }
     async getUserById(userId){
