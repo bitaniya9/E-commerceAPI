@@ -5,7 +5,7 @@ class OrderService{
         return await OrderRepo.addOrder(orderData)
     }
 
-    async getOrder(){
+    async getOrders(){
         return await OrderRepo.getOrder()
     }
 
