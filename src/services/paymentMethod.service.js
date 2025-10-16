@@ -6,7 +6,7 @@ class PayMethodService{
         return await PaymentMethodRepo.addPayMethod(payMethodData)
 
     }
-    async getPayMethod(userId){
+    async getPayMethodByUserId(userId){
         return await PaymentMethodRepo.getPayMethod(userId)
     }
     async updatePayMethod(userId,payMethod){
