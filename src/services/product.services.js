@@ -7,7 +7,7 @@ class ProductService{
         return await ProductRepo.addProduct(productData);
 
     }
-    async getProduct(){
+    async getProducts(){
         return await ProductRepo.getProduct();
     }
     async getProductbyId(productId){
